@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    background: rgb(239, 239, 239);
+    padding: 15px;
+}
+
+header {
+    text-align: center;
+}
+
+#title,
+#quote {
+    margin-bottom: 10px;
+}
+
+#quote {
+    font-style: italic
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    object-fit: cover;
+}
+
+
+
+#img-div {
+    text-align: center;
+    padding: 5px;
+    background: white;
+}
+
+#img-caption {
+    font-size: 0.7rem;
+}
+
+#tribute-info {
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+#tribute-info h2 {
+    margin: 20px auto;
+}
+
+.bold {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#tribute-info li {
+    margin-bottom: 20px;
+}
+
+blockquote {
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.link-block {
+    text-align: center;
+    padding: 10px;
+}
+
+@media (min-witdh: 768px) {
+    #tribute-info {
+        width: 60%;
+    }
+}
